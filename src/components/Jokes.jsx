@@ -7,7 +7,7 @@ export default function CarambarJokes() {
   const fetchJoke = async () => {
     try {
       setError(null);
-      const response = await fetch("http://localhost:4200/api/blagues/random");
+      const response = await fetch("https://carambar-backend-mqoj.onrender.com/api/blagues/random");
       if (!response.ok) {
         throw new Error("Aucune blague trouvée");
       }
