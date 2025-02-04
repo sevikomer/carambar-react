@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/carambar-react/static/css/main.206abd56.css",
-    "main.js": "/carambar-react/static/js/main.9d84b6cf.js",
+    "main.js": "/carambar-react/static/js/main.b818db6c.js",
     "static/js/488.af60264e.chunk.js": "/carambar-react/static/js/488.af60264e.chunk.js",
     "index.html": "/carambar-react/index.html",
     "main.206abd56.css.map": "/carambar-react/static/css/main.206abd56.css.map",
-    "main.9d84b6cf.js.map": "/carambar-react/static/js/main.9d84b6cf.js.map",
+    "main.b818db6c.js.map": "/carambar-react/static/js/main.b818db6c.js.map",
     "488.af60264e.chunk.js.map": "/carambar-react/static/js/488.af60264e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.206abd56.css",
-    "static/js/main.9d84b6cf.js"
+    "static/js/main.b818db6c.js"
   ]
 }
