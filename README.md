@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# 🎭 Carambar Jokes - Application React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bienvenue dans **Carambar Jokes**, une application React qui affiche des blagues aléatoires de Carambar ! 🍬😂
 
-## Available Scripts
+## 🚀 Démo en ligne
+🔗 [Voir la démo](https://sevikomer.github.io/carambar-react/)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📜 Fonctionnalités
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✅ Affiche des blagues aléatoires 🍫  
+✅ Interface responsive et moderne 🎨  
+✅ Déploiement sur GitHub Pages 🌍  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠 Installation et Lancement
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1️⃣ **Cloner le projet**
+git clone https://github.com/sevikomer/carambar-react.git
+cd carambar-react
 
-### `npm run build`
+### 2️⃣ **Installer les dépendances**
+npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 3️⃣ **Lancer le projet en local**
+npm start
+```
+L'application sera accessible sur `http://localhost:3000/`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🌍 Déploiement sur GitHub Pages
 
-### `npm run eject`
+1. **Configurer `package.json`**  
+   Ajoutez cette ligne avec votre nom d’utilisateur GitHub :
+   "homepape": "https://sevikomer.github.io/carambar-react"
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. **Déployer** 🚀  
+   npm run deploy
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📂 Structure du projet
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+/carambar-react
+│── public/          # Contient index.html et les assets publics
+│── src/             # Code source React
+│   ├── components/  # Composants React
+│   ├── assets/      # Images et styles
+│   ├── App.js       # Composant principal
+│   ├── index.js     # Point d’entrée de l’application
+│── package.json     # Fichier de configuration du projet
+│── README.md        # Documentation du projet
+```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🛠 Technologies utilisées
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- ⚛️ **React.js** - Bibliothèque pour l'interface utilisateur  
+- 🎨 **Tailwind CSS** - Pour un design moderne et responsive  
+- 🚀 **GitHub Pages** - Hébergement statique  
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📩 Contact
 
-### Analyzing the Bundle Size
+💡 Une suggestion ? Un bug ?  
+🔗 [Mon profil GitHub](https://github.com/sevikomer)  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+© 2025 Carambar Jokes - Projet fun et éducatif 🍭
