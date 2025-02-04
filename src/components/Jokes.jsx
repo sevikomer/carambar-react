@@ -21,9 +21,9 @@ export default function CarambarJokes() {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-yellow text-center p-4 text-dark">
-      <img src="/assets/carambar.webp" alt="background" className="absolute top-0 left-0 w-full h-full object-cover opacity-20" />
+      <img src="/carambar.webp" alt="background" className="absolute top-0 left-0 w-full h-full object-cover opacity-20" />
       <div className="z-10 p-12 bg-white shadow-lg rounded-xl border border-gray-300">
-        <img src="/assets/logo.png" alt="Logo" className="mx-auto mb-8 w-48 max-w-full" />
+        <img src="/logo.png" alt="Logo" className="mx-auto mb-8 w-48 max-w-full" />
         <h1 className="text-4xl font-bold text-dark mb-8">Bienvenue chez Carambar & Co</h1>
         <p className="mb-8 text-lg text-gray-600">
           {joke ? <><strong className="text-dark">{joke.question}</strong><br />{joke.answer}</> : "Cliquez sur le bouton pour voir une blague !"}
